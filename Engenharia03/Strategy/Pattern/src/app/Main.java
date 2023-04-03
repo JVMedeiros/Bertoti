@@ -12,9 +12,9 @@ public class Main {
 		OneDirection.setTocar(new Internacional());
 		OneDirection.executar();
 		
-		Pista HarryStyles = new Pista();
-		HarryStyles.setAssistir(new Premium());
-		HarryStyles.assistir();
+		Pista CharlotteDeWitte = new Pista();
+		CharlotteDeWitte.setAssistir(new Premium());
+		CharlotteDeWitte.assistir();
 		
 		Pista NiallHoran = new Pista();
 		NiallHoran.setAssistir(new Arquibancada());
