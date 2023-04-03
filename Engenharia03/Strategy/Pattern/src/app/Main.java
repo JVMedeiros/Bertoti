@@ -4,9 +4,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Banda SeuCuca = new Banda();
-		SeuCuca.setTocar(new Nacional());
-		SeuCuca.executar();
+		Banda TomorrowLand = new Banda();
+		TomorrowLand.setTocar(new Nacional());
+		TomorrowLand.executar();
 		
 		Banda OneDirection = new Banda();
 		OneDirection.setTocar(new Internacional());
