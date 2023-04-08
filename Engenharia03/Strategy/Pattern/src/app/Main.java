@@ -16,13 +16,13 @@ public class Main {
 		CharlotteDeWitte.setAssistir(new Premium());
 		CharlotteDeWitte.assistir();
 		
-		Pista NiallHoran = new Pista();
-		NiallHoran.setAssistir(new Arquibancada());
-		NiallHoran.assistir();
+		Pista mainStage = new Pista();
+		mainStage.setAssistir(new Arquibancada());
+		mainStage.assistir();
 		
-		Pista LouisTomlinson = new Pista();
-		LouisTomlinson.setAssistir(new Normal());
-		LouisTomlinson.assistir();
+		Pista Youphoria = new Pista();
+		Youphoria.setAssistir(new Normal());
+		Youphoria.assistir();
 	}
 
 }
