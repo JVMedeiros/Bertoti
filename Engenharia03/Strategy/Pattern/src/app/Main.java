@@ -8,9 +8,9 @@ public class Main {
 		TomorrowLand.setTocar(new Nacional());
 		TomorrowLand.executar();
 		
-		Banda OneDirection = new Banda();
-		OneDirection.setTocar(new Internacional());
-		OneDirection.executar();
+		Banda Mochakk = new Banda();
+		Mochakk.setTocar(new Internacional());
+		Mochakk.executar();
 		
 		Pista CharlotteDeWitte = new Pista();
 		CharlotteDeWitte.setAssistir(new Premium());
