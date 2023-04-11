@@ -1,10 +1,10 @@
 package Leafs;
 
-import Composite.Forma;
+import Composite.Shape;
 
-public class Triangulo implements Forma{
+public class Triangle implements Shape{
     @Override
-	public void desenho(String corDesenho) {
-		System.out.println("Desenho de triângulo com cor "+corDesenho);
+	public void draw(String drawColor) {
+		System.out.println("Desenho de triângulo com cor "+drawColor);
 	}    
 }

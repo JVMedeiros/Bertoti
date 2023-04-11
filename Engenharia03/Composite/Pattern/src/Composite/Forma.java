@@ -1,5 +1,5 @@
 package Composite;
 
-public interface Forma {
-    public void desenho(String corDesenho);
+public interface Shape {
+    public void draw(String drawColor);
 }

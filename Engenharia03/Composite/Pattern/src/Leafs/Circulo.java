@@ -1,10 +1,10 @@
 package Leafs;
 
-import Composite.Forma;
+import Composite.Shape;
 
-public class Circulo implements Forma{
+public class Circle implements Shape{
     @Override
-	public void desenho(String corDesenho) {
-		System.out.println("Desenho de círculo com cor "+corDesenho);
+	public void draw(String drawColor) {
+		System.out.println("Desenho de círculo com cor "+drawColor);
 	}
 }

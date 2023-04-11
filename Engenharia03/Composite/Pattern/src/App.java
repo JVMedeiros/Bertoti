@@ -1,27 +1,27 @@
-import Composite.Forma;
-import Leafs.Circulo;
-import Leafs.Triangulo;
+import Composite.Shape;
+import Leafs.Circle;
+import Leafs.Triangle;
 
 public class App {
     public static void main(String args[]) {
-        Forma tri = new Triangulo();
-        Forma tri1 = new Triangulo();
-        Forma cir = new Circulo();
+        Shape tri = new Triangle();
+        Shape tri1 = new Triangle();
+        Shape cir = new Circle();
 
-        Desenho desenho = new Desenho();
-        desenho.adicionar(tri1);
-        desenho.adicionar(tri);
-        desenho.adicionar(cir);
+        Draw draw = new Draw();
+        draw.add(tri1);
+        draw.add(tri);
+        draw.add(cir);
 
-        desenho.desenho("Amarelo");
+        draw.draw("Amarelo");
 
-        desenho.limpar();
+        draw.limpar();
 
-        desenho.adicionar(tri1);
-        desenho.adicionar(cir);
-        desenho.desenho("Verde");
+        draw.add(tri1);
+        draw.add(cir);
+        draw.draw("Verde");
 
-        desenho.remover(cir);
+        draw.remove(cir);
     }
 }
 

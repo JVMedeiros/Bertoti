@@ -1,28 +1,28 @@
 import java.util.ArrayList;
 import java.util.List;
 
-import Composite.Forma;
+import Composite.Shape;
 
-public class Desenho implements Forma{
-    private List<Forma> formas = new ArrayList<Forma>();
+public class Desenho implements Shape{
+    private List<Shape> shapes = new ArrayList<Shape>();
 
     @Override
-    public void desenho(String corDesenho) {
-        for(Forma forma : formas){
-            forma.desenho(corDesenho);
+    public void draw(String drawColor) {
+        for(Shape shape : shapes){
+            shape.desenho(drawColor);
         }
     }
 
-    public void adicionar(Forma f){
-        this.formas.add(f);
+    public void add(Shape f){
+        this.shape.add(f);
     }
 
-    public void remover(Forma f){
-        formas.remove(f);
+    public void remove(Shape f){
+        shape.remove(f);
     }
 
-    public void limpar(){
+    public void clean(){
         System.out.println("Limpando todas as formas.");
-        this.formas.clear();
+        this.shapes.clear();
     }
 }
