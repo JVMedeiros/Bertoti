@@ -1,13 +1,13 @@
-import Observer.NotificarEmail;
-import Observer.NotificarSMS;
+import Observer.EmailNotifier;
+import Observer.SMSNotifier;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Controlador controle = new Controlador();
+        Controller controller = new Controller();
 
-        controle.addObserver(new NotificarEmail());
-        controle.addObserver(new NotificarSMS());
-        controle.notificar();
+        controller.addObserver(new EmailNotifier());
+        controller.addObserver(new SMSNotifier());
+        controller.notificar();
 
     }
 }

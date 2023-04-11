@@ -3,7 +3,7 @@ import java.util.List;
 
 import Observer.Observer;
 
-public class Controlador {
+public class Controller {
 
     private List<Observer> observers = new ArrayList<>();
 
@@ -11,7 +11,7 @@ public class Controlador {
         this.observers.add(o);
     }
 
-    public void notificar(){
+    public void notifier(){
         for(Observer o :observers){
             o.update();
         }
