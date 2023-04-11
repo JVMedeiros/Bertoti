@@ -1,7 +1,7 @@
 public class Controlador {
     
-    private NotificarEmail email = new NotificarEmail();
-    private NotificarSMS sms = new NotificarSMS();
+    private EmailNotification email = new EmailNotification();
+    private SMSNotification sms = new SMSNotification();
 
     public void notificador(){
         email.enviarEmail();
