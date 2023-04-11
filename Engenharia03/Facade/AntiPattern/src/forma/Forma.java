@@ -1,5 +1,5 @@
 package forma;
 
-public interface Forma {
-    public void desenhar();
+public interface Shape {
+    public void draw();
 }

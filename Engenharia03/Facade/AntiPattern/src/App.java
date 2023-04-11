@@ -1,24 +1,24 @@
-import forma.Circulo;
-import forma.Forma;
-import forma.Quadrado;
-import forma.Retangulo;
-import texto.Paragrafo;
-import texto.Texto;
-import texto.Titulo;
+import forma.Circle;
+import forma.Shape;
+import forma.Square;
+import forma.Rectangle;
+import texto.Paragraph;
+import texto.Text;
+import texto.Title;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Forma quadrado = new Quadrado();
-        Forma circulo = new Circulo();
-        Forma retangulo = new Retangulo();
+        Shape square = new Square();
+        Shape circle = new Circle();
+        Shape rectangle = new Rectangle();
 
-        Texto titulo = new Titulo();
-        Texto paragrafo = new Paragrafo();
+        Text title = new Title();
+        Text paragraph = new Paragraph();
 
-        titulo.escrever();
-        quadrado.desenhar();
-        paragrafo.escrever();
-        circulo.desenhar();
-        retangulo.desenhar();
+        title.write();
+        square.draw();
+        paragraph.write();
+        circle.draw();
+        rectangle.draw();
     }
 }

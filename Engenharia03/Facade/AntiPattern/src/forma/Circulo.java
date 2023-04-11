@@ -1,13 +1,13 @@
 package forma;
 
-public class Circulo implements Forma{
+public class Circle implements Forma{
 
     private Integer posX = 5;
     private Integer posY = 8;
     private Integer radius = 5;
 
     @Override
-    public void desenhar() {
+    public void draw() {
         for (int i = 0;i <= posX + radius; i++) {
             for (int j = 1;j <=posY + radius; j++) {
                 int xSquared = (i - posX)*(i - posX);
