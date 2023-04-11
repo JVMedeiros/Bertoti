@@ -2,7 +2,7 @@ public class Database {
     
     private static Database instance;
 
-    private Database(){}
+    private Database() {}
 
     public static Database getInstance() {
         if (instance == null) {
