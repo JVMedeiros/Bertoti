@@ -1,46 +1,46 @@
-import forma.Circulo;
-import forma.Forma;
-import forma.Quadrado;
-import forma.Retangulo;
-import texto.Paragrafo;
-import texto.Texto;
-import texto.Titulo;
+import forma.Circle;
+import forma.Shape;
+import forma.Square;
+import forma.Rectangle;
+import texto.Paragraph;
+import texto.Text;
+import texto.Title;
 
 public class Facade {
-    private Forma circulo;
-    private Forma quadrado;
-    private Forma retangulo;
+    private Shape circle;
+    private Shape square;
+    private Shape rectangle;
 
     private Texto titulo;
     private Texto paragrafo;
 
     public Facade(){
-        this.circulo = new Circulo();
-        this.quadrado = new Quadrado();
-        this.retangulo = new Retangulo();
+        this.circle = new Circle();
+        this.square = new Square();
+        this.rectangle = new Rectangle();
 
-        this.titulo = new Titulo();
-        this.paragrafo = new Paragrafo();
+        this.title = new Title();
+        this.paragraph = new Paragraph();
     }
 
-    public void desenharCirculo(){
-        this.circulo.desenhar();
+    public void drawCircle(){
+        this.circle.draw();
     }
 
-    public void desenharQuadrado(){
-        this.quadrado.desenhar();
+    public void drawSquare(){
+        this.square.draw();
     }
 
-    public void desenharRetangulo(){
-        this.retangulo.desenhar();
+    public void drawRectangle(){
+        this.rectangle.draw();
     }
 
-    public void escreverTitulo(){
-        this.titulo.escrever();
+    public void writeTitle(){
+        this.title.write();
     }
 
-    public void escreverParagrafo(){
-        this.paragrafo.escrever();
+    public void writeParagraph(){
+        this.paragraph.write();
     }
 
 }

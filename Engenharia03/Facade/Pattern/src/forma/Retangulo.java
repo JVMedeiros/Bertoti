@@ -1,9 +1,9 @@
 package forma;
 
-public class Retangulo implements Forma{
+public class Rectangle implements Shape{
 
     @Override
-    public void desenhar() {
+    public void draw() {
         System.out.println("+---------------+");
         System.out.println("|               |");
         System.out.println("|               |");

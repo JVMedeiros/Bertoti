@@ -1,5 +1,5 @@
 package texto;
 
-public interface Texto {
-    public void escrever();
+public interface Text {
+    public void write();
 }
