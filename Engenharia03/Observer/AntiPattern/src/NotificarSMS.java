@@ -1,6 +1,6 @@
-public class NotificarSMS {
+public class SMSNotifier {
 
-    public void enviarSMS(){
+    public void sendSMS(){
         System.out.println("Envio de SMS");
     }
 
