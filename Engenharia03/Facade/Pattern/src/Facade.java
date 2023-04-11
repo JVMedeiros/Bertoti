@@ -11,8 +11,8 @@ public class Facade {
     private Shape square;
     private Shape rectangle;
 
-    private Texto titulo;
-    private Texto paragrafo;
+    private Texto title;
+    private Texto paragraph;
 
     public Facade(){
         this.circle = new Circle();
