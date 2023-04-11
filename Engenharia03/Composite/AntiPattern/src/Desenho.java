@@ -1,16 +1,16 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Desenho {
-    private List<Triangulo> triangulos = new ArrayList<Triangulo>();
-    private List<Circulo> circulos = new ArrayList<Circulo>();
+public class Draw {
+    private List<Triangle> triangulos = new ArrayList<Triangle>();
+    private List<Circle> circles = new ArrayList<Circle>();
 
-    public void adicionarTriangulo(Triangulo triangulo){
-        this.triangulos.add(triangulo);    
+    public void addTriangle(Triangle triangle){
+        this.triangles.add(triangle);    
     }
 
-    public void adicionarCirculo(Circulo circulo){
-        this.circulos.add(circulo);  
+    public void addCircle(Circle circle){
+        this.circles.add(circle);  
     }
 }
 

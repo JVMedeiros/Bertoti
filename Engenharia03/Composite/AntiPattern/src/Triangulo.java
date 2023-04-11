@@ -1,6 +1,6 @@
-public class Triangulo implements Forma{
+public class Triangle implements Shape{
     @Override
-	public void desenho(String desenho) {
+	public void draw(String draw) {
 		System.out.println("Desenho de triângulo.");
 	}
 }
