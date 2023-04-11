@@ -12,7 +12,7 @@ public class Database {
     }
 
     public void connect(){
-        System.out.println("Database instanced once by singleton");
+        System.out.println("DB instanced by singleton");
     }
 
 }
